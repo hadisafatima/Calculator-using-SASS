@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/index.css">
+    <script src="https://kit.fontawesome.com/334ac14b63.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calBody" class="theme">
+        <div id="themeChanger">
+            <i class="fa-solid fa-toggle-off" onclick="toggleTheme()"></i>
+            <i class="fa-solid fa-toggle-on" onclick="toggleTheme()"></i>
+        </div>
+
+        <div id="calScreen" class="theme color">
+            
+        </div>
+
+        <div id="dltBtn" class="theme color" onclick="dltLast(), dltOp()">
+            DEL
+        </div>
+
+        <div id="calDigits" class="theme">
+            <span class="num btn color" onclick="getValues(this)">7</span>
+            <span class="num btn color" onclick="getValues(this)">8</span>
+            <span class="num btn color" onclick="getValues(this)">9</span>
+            <span class="op btn" onclick="operate(this.textContent)">/</span>
+
+            <span class="num btn color" onclick="getValues(this)">4</span>
+            <span class="num btn color" onclick="getValues(this)">5</span>
+            <span class="num btn color" onclick="getValues(this)">6</span>
+            <span class="op btn" onclick="operate(this.textContent)">*</span>
+
+            <span class="num btn color" onclick="getValues(this)">1</span>
+            <span class="num btn color" onclick="getValues(this)">2</span>
+            <span class="num btn color" onclick="getValues(this)">3</span>
+            <span class="op btn" onclick="operate(this.textContent)">+</span>
+
+            <span class="num btn color" onclick="getValues(this)">.</span>
+            <span class="num btn color" onclick="getValues(this)">0</span>
+            <span class="op btn" onclick="calculation()">=</span>
+            <span class="op btn" onclick="operate(this.textContent)">-</span>
+        </div>
+    </div>
+</body>
+<script src="JS/index.js"></script>
+<script src="JS/theme.js"></script>
+</html>

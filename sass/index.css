@@ -1,0 +1,144 @@
+@media screen and (min-width: 600px) {
+  #calBody div#calScreen {
+    padding-left: 2.3rem !important;
+  }
+  #calBody div#dltBtn {
+    font-size: 2rem !important;
+    bottom: 24.5rem !important;
+    right: 2.3rem !important;
+    z-index: 1;
+  }
+  #calBody div#calDigits {
+    padding: 1rem 1.9rem !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  #calBody div#calScreen {
+    height: 34vh !important;
+    padding-left: 3.3rem !important;
+  }
+  #calBody .fa-toggle-off {
+    font-size: 2.2rem !important;
+    top: 3rem !important;
+  }
+  #calBody .fa-toggle-on {
+    font-size: 2.2rem !important;
+    top: 3rem !important;
+  }
+  #calBody div#dltBtn {
+    left: 41rem;
+    top: 18rem;
+  }
+  #calBody div#calDigits {
+    font-size: 4rem !important;
+    padding: 2rem 3.2rem !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #calBody .fa-toggle-off {
+    font-size: 2rem !important;
+    left: 10rem !important;
+    top: 33rem !important;
+  }
+  #calBody .fa-toggle-on {
+    font-size: 2rem !important;
+    left: 10rem !important;
+    top: 33rem !important;
+  }
+  #calBody div#calScreen {
+    height: 81vh;
+    font-size: 10vw;
+    padding-left: 10vw;
+    top: 10vh;
+  }
+  #calBody div#dltBtn {
+    bottom: 5rem !important;
+    left: 10rem;
+  }
+  #calBody div#calDigits {
+    font-size: 2rem !important;
+    padding: 0rem 0 4rem 39rem !important;
+    left: 0rem;
+  }
+  #calBody div#calDigits span.num {
+    width: 1rem !important;
+  }
+  #calBody div#calDigits span.op {
+    width: 1rem !important;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#calBody {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  flex-wrap: wrap;
+}
+#calBody div#themeChanger .fa-toggle-off {
+  font-size: 7vw;
+  display: inline-block;
+  position: relative;
+  left: 86vw;
+  top: 1vh;
+  color: #F02EA3;
+}
+#calBody div#themeChanger .fa-toggle-on {
+  font-size: 7vw;
+  display: none;
+  position: relative;
+  left: 86vw;
+  top: 1vh;
+  color: #F02EA3;
+}
+#calBody div#calScreen {
+  font-size: 4rem;
+  font-weight: 600;
+  position: relative;
+  top: 15vh;
+  padding-left: 3vw;
+  width: 97vw;
+  height: 27vh;
+  overflow-wrap: break-word !important;
+}
+#calBody div#dltBtn {
+  font-weight: 600;
+  font-size: xx-large;
+  position: fixed;
+  bottom: 55vh;
+  right: 4vw;
+}
+#calBody div#calDigits {
+  font-size: 4.7rem;
+  padding: 0.5rem 0.7rem;
+  position: fixed;
+  bottom: 0vh;
+}
+#calBody div#calDigits span.num {
+  background-color: #D9D9D9;
+  width: 10vw;
+  display: inline-flex;
+  border-radius: 1vw;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 5vw;
+  margin: 0.5vh 0;
+}
+#calBody div#calDigits span.op {
+  background-color: #F02EA3;
+  width: 10vw;
+  display: inline-flex;
+  border-radius: 1vw;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 5vw;
+  margin: 0.5vh 0;
+  color: white;
+}
+#calBody div#calDigits span#zero {
+  padding: 0 17vw;
+  width: 10.5vw;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+@mixin bgOfBtns($color){
+    background-color: $color;
+    width: $width ;
+    display: inline-flex;
+    border-radius: 1vw;
+    font-weight: $fontWeight;
+    text-align: center;
+    padding: 0 5vw;
+    margin: 0.5vh 0;
+}
+
+@mixin toggleTheme($display){
+    font-size: 7vw;
+    display: $display;
+    position: relative;
+    left: 86vw;
+    top: 1vh;
+    color: #F02EA3
+}
